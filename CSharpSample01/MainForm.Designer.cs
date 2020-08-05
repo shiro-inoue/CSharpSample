@@ -1,6 +1,6 @@
 ﻿namespace CSharpSample01
 {
-	partial class Form1
+	partial class MainForm
 	{
 		/// <summary>
 		/// 必要なデザイナー変数です。
@@ -168,7 +168,7 @@
             this.hTrackBar.TabIndex = 8;
             this.hTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.hTrackBar.Value = 1;
-            this.hTrackBar.Scroll += new System.EventHandler(this.hTrackBar_Scroll);
+            this.hTrackBar.Scroll += new System.EventHandler(this.whTrackBar_Scroll);
             // 
             // hValueLabel
             // 
@@ -206,7 +206,7 @@
             this.wTrackBar.TabIndex = 4;
             this.wTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.wTrackBar.Value = 1;
-            this.wTrackBar.Scroll += new System.EventHandler(this.wTrackBar_Scroll);
+            this.wTrackBar.Scroll += new System.EventHandler(this.whTrackBar_Scroll);
             // 
             // mTrackBar
             // 
@@ -273,7 +273,7 @@
             this.gTrackBar.TabIndex = 7;
             this.gTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.gTrackBar.Value = 128;
-            this.gTrackBar.Scroll += new System.EventHandler(this.gTrackBar_Scroll);
+            this.gTrackBar.Scroll += new System.EventHandler(this.rgbTrackBar_Scroll);
             // 
             // rTrackBar
             // 
@@ -284,7 +284,7 @@
             this.rTrackBar.TabIndex = 6;
             this.rTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.rTrackBar.Value = 128;
-            this.rTrackBar.Scroll += new System.EventHandler(this.rTrackBar_Scroll);
+            this.rTrackBar.Scroll += new System.EventHandler(this.rgbTrackBar_Scroll);
             // 
             // bValueLabel
             // 
@@ -349,9 +349,9 @@
             this.bTrackBar.TabIndex = 8;
             this.bTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.bTrackBar.Value = 128;
-            this.bTrackBar.Scroll += new System.EventHandler(this.bTrackBar_Scroll);
+            this.bTrackBar.Scroll += new System.EventHandler(this.rgbTrackBar_Scroll);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -362,7 +362,7 @@
             this.Controls.Add(this.childWindowCheckBox);
             this.Controls.Add(this.buttonGroupBox);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "入門課題";
             this.buttonGroupBox.ResumeLayout(false);
             this.coordinateGroupBox.ResumeLayout(false);

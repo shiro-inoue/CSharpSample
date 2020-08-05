@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace CSharpSample01
 {
-	public partial class Form2 : Form
+	public partial class SubForm : Form
 	{
-		public Form2()
+		public SubForm()
 		{
 			InitializeComponent();
-
-			// ウインドウサイズ
-			this.Size = new Size(300, 200);
-
-			// タイトルバーを消す
-			this.ControlBox = false;
-            this.Text = String.Empty;
-
 		}
 	}
 }

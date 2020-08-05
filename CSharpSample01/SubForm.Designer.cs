@@ -1,6 +1,6 @@
 ﻿namespace CSharpSample01
 {
-	partial class Form2
+	partial class SubForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -30,15 +30,15 @@
 		{
             this.SuspendLayout();
             // 
-            // Form2
+            // SubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 171);
+            this.ClientSize = new System.Drawing.Size(300, 200);
             this.ControlBox = false;
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "SubForm";
             this.ResumeLayout(false);
 
 		}
